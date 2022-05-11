@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkcyan;
+  }
+
+
+  .list{
+      width: 1400px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      margin: 10px auto;
+      row-gap: 30px;
+      column-gap: 30px;
+  }
+
+/* 
+  .list__item{
+      width: 100%;
+  } */
+
+  
+.list__item{
+    width: 25%;
+    padding: 20px;
+    background-color: gray;
+    align-items: center;
+    text-align: center;
+  }
+  
